@@ -9,7 +9,7 @@ https://zenodo.org/record/1188976#.XKeTlZhKjD4) in the same directory as
 create_dataset.py. This will create your train and test data in new directories labelled "Train"
 and "Test" respectively. Then, run ./main.py to run the full pipeline (feature extraction plus training and testing of both models).
 
-We write the features and labels of the train and test set into  4 files, X.txt, X_test.txt, y.txt and y_test.txt.
+We write the features and labels of the train and test set into  4 files: X.txt, X_test.txt, y.txt and y_test.txt.
 
 The libraries used for this project are: numpy 1.16.0, python_speech_features 0.6, sklearn 0.20.3, and librosa 0.6.3.
 
