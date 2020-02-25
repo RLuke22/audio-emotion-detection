@@ -1,7 +1,7 @@
 # audio-emotion-detection
-SENG 474 Group Project (with Muhammad Ali and Ryley Woodland): A Machine Learning Approach to Emotion Classification
+SENG 474 (Data Mining) Group Project (with Muhammad Ali and Ryley Woodland): A Machine Learning Approach to Emotion Classification
 
-We train two models to learn the underlying emotion present in audio recordings; we train a linear SVM model, and a Linear SVM model with an Radial Basis Function Kernel and PCA dimensionality reduction. Our best model has a classification accuracy of 76.2% over 6 emotions: 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised. 
+We train two models to learn the underlying emotion present in audio recordings; we train a linear SVM model, and a Linear SVM model with an Radial Basis Function Kernel and PCA dimensionality reduction.
 
 To create the dataset and extract the features yourself, first run create_dataset.py with the
 Audio_Song_Actors_01-24 and Audio_Speech_Actors_01-24 directories (which can be downloaded at 
